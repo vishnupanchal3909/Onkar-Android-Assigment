@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ImpliedTouchscreenHardware,MissingLeanbackLauncher">
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        tools:targetApi="31">
+        <activity
+            android:name=".Assigment.QuestionNineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionEightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionSevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionSixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionFifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.ShapeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionFourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionSecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionFirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
