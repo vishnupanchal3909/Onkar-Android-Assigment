@@ -13,6 +13,7 @@ import androidx.databinding.DataBindingUtil;
 
 import com.example.androidassignment.Assigment.QuestionEightActivity;
 import com.example.androidassignment.Assigment.QuestionElevenActivity;
+import com.example.androidassignment.Assigment.QuestionFifteenActivity;
 import com.example.androidassignment.Assigment.QuestionFifthActivity;
 import com.example.androidassignment.Assigment.QuestionFirstActivity;
 import com.example.androidassignment.Assigment.QuestionFourteenActivity;
@@ -130,10 +131,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        binding.btnQuestionThirteen.setOnClickListener(new View.OnClickListener() {
+        binding.btnQuestionFourteen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), QuestionFourteenActivity.class);
+                startActivity(intent);
+            }
+        });
+        binding.btnQuestionFifteen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), QuestionFifteenActivity.class);
                 startActivity(intent);
             }
         });

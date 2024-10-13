@@ -86,6 +86,11 @@
                 android:layout_height="wrap_content"
                 android:text="Question 14"
                 android:id="@+id/btnQuestionFourteen"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 15"
+                android:id="@+id/btnQuestionFifteen"/>
 
         </LinearLayout>
 

@@ -7,6 +7,8 @@
         android:name="android.software.leanback"
         android:required="false" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
+        <activity
+            android:name=".Assigment.QuestionFifteenActivity"
+            android:exported="false" />
         <activity
             android:name=".Assigment.QuestionFourteenActivity"
             android:exported="false" />
