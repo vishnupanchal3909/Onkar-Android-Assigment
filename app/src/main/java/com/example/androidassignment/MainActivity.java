@@ -12,14 +12,19 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.databinding.DataBindingUtil;
 
 import com.example.androidassignment.Assigment.QuestionEightActivity;
+import com.example.androidassignment.Assigment.QuestionElevenActivity;
 import com.example.androidassignment.Assigment.QuestionFifthActivity;
 import com.example.androidassignment.Assigment.QuestionFirstActivity;
+import com.example.androidassignment.Assigment.QuestionFourteenActivity;
 import com.example.androidassignment.Assigment.QuestionFourthActivity;
 import com.example.androidassignment.Assigment.QuestionNineActivity;
 import com.example.androidassignment.Assigment.QuestionSecondActivity;
 import com.example.androidassignment.Assigment.QuestionSevenActivity;
 import com.example.androidassignment.Assigment.QuestionSixActivity;
+import com.example.androidassignment.Assigment.QuestionTenActivity;
 import com.example.androidassignment.Assigment.QuestionThirdActivity;
+import com.example.androidassignment.Assigment.QuestionThirteenActivity;
+import com.example.androidassignment.Assigment.QuestionTwelveActivity;
 import com.example.androidassignment.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -94,6 +99,41 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), QuestionNineActivity.class);
+                startActivity(intent);
+            }
+        });
+        binding.btnQuestionTen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), QuestionTenActivity.class);
+                startActivity(intent);
+            }
+        });
+        binding.btnQuestionEleven.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), QuestionElevenActivity.class);
+                startActivity(intent);
+            }
+        });
+        binding.btnQuestionTwelve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), QuestionTwelveActivity.class);
+                startActivity(intent);
+            }
+        });
+        binding.btnQuestionThirteen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), QuestionThirteenActivity.class);
+                startActivity(intent);
+            }
+        });
+        binding.btnQuestionThirteen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), QuestionFourteenActivity.class);
                 startActivity(intent);
             }
         });

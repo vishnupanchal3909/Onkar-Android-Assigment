@@ -18,6 +18,21 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".Assigment.QuestionFourteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionThirteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionTwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionElevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assigment.QuestionTenActivity"
+            android:exported="false" />
+        <activity
             android:name=".Assigment.QuestionNineActivity"
             android:exported="false" />
         <activity

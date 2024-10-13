@@ -61,6 +61,31 @@
                 android:layout_height="wrap_content"
                 android:text="Question 9"
                 android:id="@+id/btnQuestionNine"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 10"
+                android:id="@+id/btnQuestionTen"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 11"
+                android:id="@+id/btnQuestionEleven"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 12"
+                android:id="@+id/btnQuestionTwelve"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 13"
+                android:id="@+id/btnQuestionThirteen"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 14"
+                android:id="@+id/btnQuestionFourteen"/>
 
         </LinearLayout>
 
